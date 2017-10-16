@@ -18,6 +18,8 @@ R CMD INSTALL RZigZag
 
 ## Experiment in Julia: non-identifiable logistic regression
 
-This concerns reproducing the experiment of Section 6.5 (Non-identifiable logistic regression), which is implemented in Julia.
+This concerns reproducing the experiment of Section 6.5 (Non-identifiable logistic regression), which is implemented in Julia. We assume the user has a working version of Julia.
 
 1. Download all files and change to the folder containing the files
+2. Install the Julia packages `PyPlot`, `Polynomials`
+3. The experiment can be run using the Julia script `run_nonidentifiable_logistic.jl`
