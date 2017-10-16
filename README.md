@@ -12,7 +12,7 @@ install.packages(c("Hmisc", "Rcpp", "RcppEigen"))
 ```
 2. Exit R and install the RZigZig package: from the command line type
 ```
-R CMD INSTALL RZigZag
+R CMD INSTALL RZigZag_0.1.tar.gz 
 ```
 3. Now, the experiments can be run using the R-scripts `test_gaussian.R`, `test_gaussian_var.R`, `test_ess_with_observations_2d.R`, `test_ess_with_observations_nd.R`
 
