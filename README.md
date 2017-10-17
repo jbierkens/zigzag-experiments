@@ -6,9 +6,9 @@ Code for reproducing the experiments in J. Bierkens, P. Fearnhead, G. Roberts, h
 This concerns reproducing the experiments of Section 6.3 (Gaussian mean regression) and Section 6.4 (Logistic regression).
 
 1. Download all files and change to the folder containing the files
-2. Install the R packages `Hmisc`, `Rcpp` and `RcppEigen`, e.g. using the R command
+2. Install the R packages `batchmeans`, `Hmisc`, `Rcpp` and `RcppEigen`, e.g. using the R command
 ```
-install.packages(c("Hmisc", "Rcpp", "RcppEigen"))
+install.packages(c("batchmeans","Hmisc", "Rcpp", "RcppEigen"))
 ```
 2. Exit R and install the RZigZig package: from the command line type
 ```
