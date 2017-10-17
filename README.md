@@ -10,11 +10,11 @@ This concerns reproducing the experiments of Section 6.3 (Gaussian mean regressi
 ```
 install.packages(c("batchmeans","Hmisc", "Rcpp", "RcppEigen"))
 ```
-2. Exit R and install the RZigZig package: from the command line type
+3. Exit R and install the RZigZig package: from the command line type
 ```
 R CMD INSTALL RZigZag_0.1.tar.gz 
 ```
-3. Now, the experiments can be run using the R-scripts `test_gaussian.R`, `test_gaussian_var.R`, `test_ess_with_observations_2d.R`, `test_ess_with_observations_nd.R`
+4. Now, the experiments can be run using the R-scripts `test_gaussian.R`, `test_gaussian_var.R`, `test_ess_with_observations_2d.R`, `test_ess_with_observations_nd.R`
 
 ## Experiment in Julia: non-identifiable logistic regression
 
