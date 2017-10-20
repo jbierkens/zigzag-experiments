@@ -1,7 +1,7 @@
 # Zig-Zag experiments
 Code for reproducing the experiments in J. Bierkens, P. Fearnhead, G. Roberts, https://arxiv.org/abs/1607.03188. 
 
-Note: This code is not explicitly aimed at being user friendly. For users wanting to apply the Zig-Zag algorithm to logistic regression, a R logistic regression package will is available on CRAN, which can be installed using `install.packages("RZigZag")`.
+Note: For users wanting to apply the Zig-Zag algorithm to logistic regression, a user friendly `R` logistic regression package is available on CRAN, which can be installed using `install.packages("RZigZag")`.
 
 ## Experiments in R: Gaussian mean and logistic regression
 
